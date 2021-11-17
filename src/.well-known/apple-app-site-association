@@ -1,0 +1,19 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "XF5KBZEVUB.se.folkbladet.Folkbladet",
+				"paths": [
+					"/applink/*"
+				]
+			},
+			{
+				"appID": "XF5KBZEVUB.se.ntminnovation.iris-test",
+				"paths": [
+					"/applink/*"
+				]
+			}
+		]
+	}
+}
