@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private router: Router) {}
   openApp() {
-    this.router.navigate([`/applink`])
+    // this.router.navigate([`/applink`])
     console.log('HEJHEJHEJ');
     window.location.href = "https://link-test-ntm.herokuapp.com/applink"
   }
