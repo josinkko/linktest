@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private router: Router) {}
   openApp() {
-    this.router.navigate([`/applink/hejhej`])
+    this.router.navigate([`/applink`])
     console.log('HEJHEJHEJ');
   }
 }

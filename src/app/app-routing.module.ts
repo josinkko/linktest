@@ -6,7 +6,7 @@ import { OpenInAppPageComponent } from './components/open-in-app.page.component'
 const routes: Routes = [
 {
 
-        path: 'applink/:hejhej',
+        path: 'applink',
         component: OpenInAppPageComponent,
       }
 
