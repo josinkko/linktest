@@ -12,7 +12,7 @@ app.get('/*', function(req,res){
 //   res.sendFile(path.join(__dirname + '.well-known/apple-app-site-association'))
 // })
 
-var aasa = fs.readFileSync(__dirname + '.well-known/apple-app-site-association');
+var aasa = fs.readFileSync(__dirname + '/src/.well-known/apple-app-site-association');
 app.get('/apple-app-site-association', function(req, res, next) {
   res.set('Content-Type', 'application/pkcs7-mime');
   res.status(200).send(aasa);
