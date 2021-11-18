@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const fs = require('fs');
 app.use(express.static(__dirname + '/dist/LinkTest'));
-app.get('/*', function(req,res){
+app.get('/', function(req,res){
   res.sendFile(path.join(__dirname, 'dist/LinkTest', 'index.html'))
 });
 // app.get('/hej/apple-app-site-association', function(req, res) {
