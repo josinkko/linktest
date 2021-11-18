@@ -13,5 +13,6 @@ export class AppComponent {
   openApp() {
     this.router.navigate([`/applink`])
     console.log('HEJHEJHEJ');
+    window.location.href = "https://link-test-ntm.herokuapp.com/applink"
   }
 }
