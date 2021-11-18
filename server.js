@@ -14,7 +14,7 @@ app.get('/hej', function(req,res){
 
 var aasa = fs.readFileSync(__dirname + '/src/.well-known/apple-app-site-association');
 app.get('/apple-app-site-association', function(req, res, next) {
-  res.set('Content-Type', 'application/pkcs7-mime');
+  res.set('Content-Type', 'application/json');
   res.status(200).send(aasa);
 });
 // Start the app by listening on the default Heroku port
