@@ -13,6 +13,8 @@ export class AppComponent {
   openApp() {
     // this.router.navigate([`/applink`])
     console.log('HEJHEJHEJfdfsdfs');
-    window.location.href = "https://link-test-ntm.herokuapp.com/applink"
+    // window.location.href = "https://link-test-ntm.herokuapp.com/applink"
+    window.location.href = "https://folkbladet.se/debatt/artikel/kd-aldre-ska-ha-rad-att-ga-till-tandlakaren/jo0wv5yj"
+    
   }
 }
