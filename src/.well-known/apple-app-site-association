@@ -5,9 +5,9 @@
 			{
 				"appID": "XF5KBZEVUB.se.folkbladet.Folkbladet",
 				"paths": [
-					// "/applink",
-					"*/artikel/*",
-					"/debatt/artikel/*"
+					"/applink/*"
+					// "*/artikel/*",
+					// "/debatt/artikel/*"
 				]
 			},
 			{
