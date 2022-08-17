@@ -14,7 +14,7 @@ export class AppComponent {
     // this.router.navigate([`/applink`])
     console.log('HEJHEJHEJfdfsdfs');
     // window.location.href = "https://link-test-ntm.herokuapp.com/applink"
-    window.location.href = "https://folkbladet.se/debatt/artikel/kd-aldre-ska-ha-rad-att-ga-till-tandlakaren/jo0wv5yj"
+    window.location.href = "https://link-test-ntm.herokuapp.com/artikel/https://folkbladet.se/debatt/artikel/kd-aldre-ska-ha-rad-att-ga-till-tandlakaren/jo0wv5yj"
     
   }
 }
