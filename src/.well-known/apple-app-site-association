@@ -5,7 +5,7 @@
 			{
 				"appID": "XF5KBZEVUB.se.folkbladet.Folkbladet",
 				"paths": [
-					"/applink",
+					// "/applink",
 					"/artikel/*"
 				]
 			},
