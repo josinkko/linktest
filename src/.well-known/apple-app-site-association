@@ -7,7 +7,7 @@
 				"paths": [
 					// "/applink",
 					"*/artikel/*",
-					"debatt/artikel/*"
+					"/debatt/artikel/*"
 				]
 			},
 			{
